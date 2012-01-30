@@ -1,0 +1,81 @@
+flip
+------------------------------------------
+
+Convert text file line endings between Unix and DOS formats
+
+Program converts line endings of text files between MS-DOS and
+**IX formats. It detects binary files in a nearly foolproof way and
+leaves them alone unless you override this. It will also leave files
+alone that are already in the right format and preserves file
+timestamps. User interrupts are handled gracefully and no garbage or
+corrupted files left behind. 'flip' does not convert files to a
+different character set, and it can not handle Apple Macintosh line
+endings (CR only). For that (and more), you can use the 'recode'
+program (package 'recode').
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://packages.debian.org/flip
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Author: Rahul Dhesi (last seen 1989 in comp.sources.misc)
+  Bugs:
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  You may need cygbuild.sourceforge.net to build *src.tar.bz2 archive
+  unpack flip-1.19-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./flip*.sh all
+
+This will create:
+  flip-1.19-1.tar.bz2
+  flip-1.19-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distro:
+
+usr/bin/flip.exe
+usr/share/doc/Cygwin/flip-1.19.README
+usr/share/doc/flip-1.19/ChangeLog
+usr/share/doc/flip-1.19/MESSAGE
+usr/share/man/man1/flip.1.gz
+
+------------------
+
+Port Notes:
+
+- Makefile: added 'all' target to default 'sys_v' and
+  rewrote 'install' target
+
+----- version 1.19-1 -----
+- Initial release 2007-09-12 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later

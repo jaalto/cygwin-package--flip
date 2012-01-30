@@ -1,0 +1,62 @@
+To: cygwin-announce@cygwin.com
+Subject: Updated: package N.N
+Subject: New package: flip 1.19 -- Convert text file line endings between Unix and DOS formats
+
+PACKAGE DESCRIPTION
+===================
+
+Homepage: http://packages.debian.org/sid/flip
+License : GPL
+
+Flip converts line endings of text files between MS-DOS and
+**IX formats. It detects binary files in a nearly foolproof way and
+leaves them alone unless you override this. It will also leave files
+alone that are already in the right format and preserves file
+timestamps. User interrupts are handled gracefully and no garbage or
+corrupted files left behind. 'flip' does not convert files to a
+different character set, and it can not handle Apple Macintosh line
+endings (CR only). For that (and more), you can use the 'recode'
+program (package 'recode').
+
+CHANGES SINCE LAST RELEASE
+==========================
+
+None
+
+INSTALL OR UPGRADE NOTES
+========================
+
+Standard install
+
+CYGWIN INSTALLATION INFORMATION
+===============================
+
+To install this package, click on the "Install Cygwin now" link on the
+<http://cygwin.com/> web page. This downloads setup.exe to your
+system. Then, run setup and answer all of the questions. You'll find
+the package listed in the "All" category. After installation, read the
+documentation at directories:
+
+    /usr/share/doc/<package-version>/*
+    /usr/share/doc/Cygwin/<package-version>.README
+
+If you have questions or comments, please send them to the Cygwin
+mailing list at <cygwin@cygwin.com>.
+
+CYGWIN-ANNOUNCE UNSUBSCRIBE INFO
+================================
+
+This message has been sent to cygwin-announce list.
+
+If you want to unsubscribe from the mailing list, look at the
+"List-Unsubscribe: " tag in the email header of this message. Send
+email to the address specified there. It will be in the format:
+
+    cygwin-announce-unsubscribe-you=yourdomain.com@cygwin.com
+
+More information on unsubscribing can be found:
+
+    http://sources.redhat.com/lists.html#unsubscribe-simple
+
+Please read *all* of the information on unsubscribing that is available
+starting at the above URL.
